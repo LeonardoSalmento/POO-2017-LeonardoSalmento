@@ -1,0 +1,7 @@
+Cria uma arquivo na pasta escolhida, e entra no local da pasta, pelo prompt de comando
+utiliza o código "git init", para inicializar o repositorio
+Em seguida usa o código "git clone + URL" para ligar a pasta local com o repositorio git.
+Depois de adicionar algum arquivo na pasta, utiliza o "git status" para ver se tem algo para adicionar no servidor local.
+Os arquivos podem ser adicionados com o seguinte código "git add *", para adicionar todos os arquivos que foram alterados.
+usa-se o comando "git commit -m"Descrição"" para permitir que os arquivos possam ser "subidos" para o git.
+e em seguida utiliza o comando "git push origin master", para subir seus arquivos para o github.

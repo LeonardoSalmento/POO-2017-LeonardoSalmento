@@ -1,0 +1,3 @@
+1. Classe é a abstração de algo do mundo real, já o Objeto é a classe em execução, ou seja, a classe é uma receita e o objeto é o bolo.
+variavel, é algo que sempre está mudando, a referência é feita no momento em que se cria um objeto, a variavel recebe a referencia do objeto, ou seja, recebe a posição de memoria do objeto.
+Instancia é a alocação de espaço na memória para o objeto.
