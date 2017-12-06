@@ -9,18 +9,21 @@ public class TestaContas {
 		Conta cc = new ContaCorrente();
 		Conta cp = new ContaPoupanca();
 		
+		AtualizadorDeContas adc = new AtualizadorDeContas(0.01);
+		
 		c.depositar(1000);
 		cc.depositar(1000);
 		cp.depositar(1000);
 		
-		c.atualiza(0.01);
-		cc.atualiza(0.01);
-		cp.atualiza(0.01);
+		adc.roda(c);
+		adc.roda(cc);
+		adc.roda(cp);
 		
-		System.out.println(c.getSaldo());
-		System.out.println(cc.getSaldo());
-		System.out.println(cp.getSaldo());
+		System.out.println("Saldo Total: " + adc.getSaldoTotal());
+		
+		
 
 	}
-
+	
+	
 }

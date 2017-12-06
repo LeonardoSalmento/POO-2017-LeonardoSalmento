@@ -2,7 +2,11 @@ package model;
 
 public class ContaPoupanca extends Conta{
 	
-	public void atualiza(double taxa){
-		this.saldo += this.saldo * taxa * 3;
+	void ContaPoupanca(){
+		
+	}
+	
+	public void atualizar(double taxa){
+		super.atualizar(taxa*3) ;
 	}
 }

@@ -9,7 +9,7 @@ public class Conta {
 	protected double saldo;
 	
 	
-	public void atualiza(double taxa){
+	public void atualizar(double taxa){
 		this.saldo += this.saldo * taxa;
 	}
 	
