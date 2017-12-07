@@ -1,0 +1,77 @@
+1.Classes são modelos, objetos são classes em execução/memoria(instanciadas).
+ex.
+Class Pessoa(){
+	String nome;
+	String dataDeNascimento;
+	double Numero;
+}
+
+Objeto Pessoa:
+	nome = claudio;
+	dataDeNascimento = 20/05/1978;
+	altura = 1.6;
+
+------------------------------------------------------------------------------------------------
+
+2.Atributos - Caracteristicas relacionadas ao objeto.
+  Metodos - Verbos que representam comportamentos ou ação dos objetos.
+
+-------------------------------------------------------------------------------------------------
+
+3.   
+    Atributo                          Sistemas que importam                 Sistemas que não importam
+
+
+      1-Peso                          Sistema de saude                            Auto-escola
+      2-Tipo de CNH                   Uber/Taxi                                   Sistema de saude 
+      3-Tipo sanguineo                Sistema de doacao de sangue                 Uber/taxi
+      4-Habilidade destra                                                         Uber/Taxi
+      5-Percentual de gordura         Sistema de Academia                         Uber/Taxi
+      6-Saldo em conta                Sistema Bancario/Emprestimo                 Sistema escolar
+      7-Etnia                         Sistema que possui cotas                    Uber/Taxi
+
+-----------------------------------------------------------------------------------------------------
+
+4.A) Sim
+  B) Uma lista?
+
+-----------------------------------------------------------------------------------------------------
+
+5. Aluno, Professor, Disciplina, Curso, Turma.
+
+-------------------------------------------------------------------------------------------------------
+
+6. NEED FOR SPEED
+
+Objetos:
+Carros
+
+
+Atributos:
+Cor
+Velocidade Máxima
+
+
+Métodos:
+Acelerar
+Frear
+MudarCamera
+
+--------------------------------------------------------------------------------------------------------
+
+7.
+
+
+
+public static void main(String[] args){
+	Retangulo retangulo = new Retangulo();
+	retangulo.l1 = 10;
+	retangulo.l2 = 20;
+
+	System.out.println("Perimetro : " + retangulo.ObterPerimetro(l1,l2));
+
+}
+
+-------------------------------------------------------------------------------------------------------------
+
+8.
