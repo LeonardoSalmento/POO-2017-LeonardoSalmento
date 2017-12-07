@@ -25,7 +25,7 @@ Objeto Pessoa:
       1-Peso                          Sistema de saude                            Auto-escola
       2-Tipo de CNH                   Uber/Taxi                                   Sistema de saude 
       3-Tipo sanguineo                Sistema de doacao de sangue                 Uber/taxi
-      4-Habilidade destra                                                         Uber/Taxi
+      4-Habilidade destra             Sistema de instrumentos musicais            Uber/Taxi
       5-Percentual de gordura         Sistema de Academia                         Uber/Taxi
       6-Saldo em conta                Sistema Bancario/Emprestimo                 Sistema escolar
       7-Etnia                         Sistema que possui cotas                    Uber/Taxi
@@ -73,5 +73,3 @@ public static void main(String[] args){
 }
 
 -------------------------------------------------------------------------------------------------------------
-
-8.
