@@ -1,0 +1,35 @@
+1.
+
+------------------------------------------------------------------------------------------
+
+2.
+irá printar o valor 0(zero), pois o "++", vem após a variável, sendo assim, primeiro ele imprime o valor atual da variavel, e só depois ele incrementa 1.
+
+--------------------------------------------------------------------------------------------
+
+3.
+O código irá printar (a-b), pois o a é menor que 11.
+
+--------------------------------------------------------------------------------------------
+
+4.
+irá printar três vezes o valor de OP, ou seja, irá printar o 1, três vezes.
+
+---------------------------------------------------------------------------------------------
+
+5.
+public class Exemplo {     public static void main(String args[]) { 
+        int a = 10;
+	int b = 1;
+	System.out.println("Soma: " + (a + b));
+	}
+} 
+
+------------------------------------------------------------------------------------------------
+
+9.
+A 6 é mais estruturada, já a 7-8, é mais orientada a objetos, logo, a 7-8 é mais reutilizavel.
+
+------------------------------------------------------------------------------------------------
+
+
