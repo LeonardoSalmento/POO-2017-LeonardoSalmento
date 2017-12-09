@@ -1,0 +1,62 @@
+1.
+V
+F
+V
+
+F
+V
+V
+F
+V
+V
+
+-------------------------------------------------------------------------------------------------
+
+2.
+
+
+-------------------------------------------------------------------------------------------------
+
+4.
+public class Pilha {
+  int[] elementos;
+  int indice;
+  int tamanho;
+    Pilha(int tamanho) {
+   this.tamanho = tamanho;
+   elementos = new int[tamanho];
+  } 
+ 
+ void empilhar(int i) {
+   if(indice<elementos.length){
+   	elementos[indice] = i;
+   	indice++;
+	}
+ } 
+}
+
+-------------------------------------------------------------------------------------------------
+
+5.
+0
+
+-------------------------------------------------------------------------------------------------
+
+7.
+A)90
+B)O que C1 apontava anteriormente, "some".
+C)
+
+-------------------------------------------------------------------------------------------------
+
+8.
+Execução.
+Conta[] contas = new Conta[5]; 
+ contas[0] = new Conta();
+ contas[0].creditar(10);  
+ System.out.println(contas[0].saldo); 
+
+-------------------------------------------------------------------------------------------------
+
+9.
+Não, pois o saldo se inicializa automaticamente com 0.
