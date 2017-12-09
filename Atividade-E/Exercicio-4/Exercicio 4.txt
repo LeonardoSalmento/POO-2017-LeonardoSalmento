@@ -1,0 +1,19 @@
+1.
+foi criado um array de 5 espaços, depois um for, e em cada volta a posicao do array, recebe o valor de i, e em seguida é printado esse valor.
+
+-------------------------------------------------------------------------------------------------
+
+2.
+Erro de execução, pois foi criado apenas um array de contas, mas as contas ainda precisão ser instanciadas.
+
+public static void main(String[] args) {
+		Conta[] contas = new Conta[5]; 
+		contas[0] = new Conta();
+		contas[0].saldo = 10; 
+		System.out.println(contas[0].saldo); 
+
+}
+
+------------------------------------------------------------------------------------------------
+
+3.
