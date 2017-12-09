@@ -1,5 +1,7 @@
 1.
 foi criado um array de 5 espaços, depois um for, e em cada volta a posicao do array, recebe o valor de i, e em seguida é printado esse valor.
+Porém, o I está indo até o tamanho do array(5)-> posição 6, e por isso, está dando erro de index.
+
 
 -------------------------------------------------------------------------------------------------
 
@@ -15,5 +17,3 @@ public static void main(String[] args) {
 }
 
 ------------------------------------------------------------------------------------------------
-
-3.
