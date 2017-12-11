@@ -8,14 +8,17 @@ public class Senha {
 	}
 	
 	public boolean iguais(String valor){
-		if (this.valor == valor){
+		if (this.valor.equals(valor)){
 			return true;
 		}
 		return false;
 	}
 	
-	public void iguaisTrim(String valor){
-		
+	public boolean iguaisTrim(String valor){
+		if (this.valor.equals(valor.trim())){
+			return true;
+		}
+		return false;
 	}
 	
 	public boolean tamanhoSeguro(){
