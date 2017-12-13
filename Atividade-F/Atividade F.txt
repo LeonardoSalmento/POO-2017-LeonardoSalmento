@@ -1,0 +1,7 @@
+1)Pois ela é uma classe que serve apenas de rascunho.
+2)Sim, para ter um código mais concreto.
+3)Agora, ela precisa reescrever o metodo atualiza para funcionar.
+
+6)Para, obrigar que cada classe filha, tenha que ter uma classe atualiza com suas próprias caracteristicas.Apenas, não se torna obrigatoria.
+
+Desafio: porque um array, guarda as referencias do objeto.
