@@ -1,0 +1,7 @@
+1) Não, pois ela é apenas uma classe modelo.
+2) A classeConcreta precisa implementar o metodo imprime.
+3) Essa classe, não irá compilar.
+4) Tornando a FiguraGeometrica e os seus metodos, Área e perimetro, abstratos.
+5) 
+6)
+7)Pois o array de FiguraGeometrica, iria criar um array de referencias e não um array de objetos do tipo FiguraGeometrica.
