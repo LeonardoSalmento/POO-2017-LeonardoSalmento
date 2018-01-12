@@ -1,0 +1,15 @@
+				10.5
+
+1)Sim;
+Vantagens: baixo acoplamento, Torna a manutenção mais facil, flexibilidade e aumento de polimorfismo.
+Desvantagens: Criação de interfaces desnecessárias ou colocar muitos métodos em uma interface.
+
+-------------------------------------------------------------------------------------------------
+
+2)
+
+
+
+				10.6
+
+2) O método getSaldo, não é acessível por t, pois t é do tipo Tributavel, tendo apenas o metodo que Tributavel possui.
