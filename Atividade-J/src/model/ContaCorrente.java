@@ -10,9 +10,7 @@ public class ContaCorrente extends Conta{
 		this.saldo -= valor;
 	}
 	
-	public void atualizar(double taxa){
-		super.atualizar(taxa*2) ;
-	}
+	
 	
 	
 }

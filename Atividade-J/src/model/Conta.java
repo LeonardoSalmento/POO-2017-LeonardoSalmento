@@ -1,6 +1,8 @@
 package model;
 
-public abstract class Conta {
+import exceptions.SaldoInsuficienteException;
+
+public class Conta {
 	
 	public Conta(){
 		
@@ -8,15 +10,33 @@ public abstract class Conta {
 	
 	protected double saldo;
 	
+
 	
-	public abstract void atualizar(double taxa);
-	
-	public void depositar(double valor){
-		this.saldo += valor;
+	public void depositar(double valor) {
+		if (valor <= 0){
+			throw new IllegalArgumentException("Você tentou depositar" + 
+                    " um valor negativo");
+			
+		}else{
+			this.saldo += valor;
+			
+		}
+		
 	}
 	
-	public void sacar(double valor){
+	public void sacar(double valor) throws SaldoInsuficienteException{
+		if (valor <= 0){
+			throw new IllegalArgumentException("Você tentou sacar" + 
+                    " um valor negativo");
+		
+		}
+		if(valor> this.saldo){
+			throw new SaldoInsuficienteException(valor);
+			
+		}
+		
 		this.saldo -= valor;
+		
 	}
 	
 	public double getSaldo(){
