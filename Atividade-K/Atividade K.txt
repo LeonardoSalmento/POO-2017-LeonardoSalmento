@@ -1,0 +1,8 @@
+15.6
+3) O método sort, não sabe por qual meio ordenar as contas.
+
+4) Collections.Reverse(contas);
+   Collections.shuffle(contas);
+   Collections.rotate(contas,1);
+   
+
